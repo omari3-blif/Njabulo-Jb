@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ben-whittaker-tech
+    env: node
+    plan: free
+    branch: main
+    repo: https://github.com/omari3-blif/Njabulo-Jb
+    buildCommand: npm install
+    startCommand: node index.js
+    autoDeploy: true
